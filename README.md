@@ -1,16 +1,37 @@
 ## API em Node.js com operações CRUD (Create, Read, Update, Delete)
 
-Utilizando o banco de dados MongoDB e a biblioteca Mongoose para comunicação com o banco
+<strong>Utilizando o banco de dados MongoDB e a biblioteca Mongoose para comunicação com o banco</strong>
 
-Esta API foi desenvolvida utilizando a tecnologia do <a href="https://chat.openai.com/auth/login">ChatGPT</a>
+Esta API foi desenvolvida utilizando a tecnologia do <a href="https://chat.openai.com/auth/login">ChatGPT</a><br><br>
 
-1. Instale o <a href="https://nodejs.org/en/download/">Node.js</a> e o <a href="https://www.mongodb.com/try/download/community">MongoDB</a> em seu computador.
-2. Crie uma pasta para o projeto e abra-a em um terminal.
-3. Inicie o projeto Node.js com o comando:
+1. Instale o <a href="https://nodejs.org/en/download/">Node.js</a> e o <a href="https://www.mongodb.com/try/download/community">MongoDB</a> em seu computador. Em seguida crie o <a href="#mongo">banco de dados</a>. 
+
+2. Clone este projeto:
+````
+git clone https://github.com/italorafaeltavares/nodejs-api.git
+````
+3. Acesse o projeto:
+````
+cd nodejs-api
+````
+4. Instale as dependências necessárias com o comando:
+```
+npm install express mongoose body-parser --save.
+```
+5. Inicie a API utilizando:
+```
+npm start
+```
+<hr>
+
+# Descrição da construção
+
+* Crie uma pasta para o projeto e abra-a em um terminal.
+* Inicie o projeto Node.js com o comando:
 ```
  npm init
 ```
-4. Instale as dependências necessárias com o comando:
+* Instale as dependências necessárias com o comando:
 ```
 npm install express mongoose body-parser --save.
 ```
@@ -28,7 +49,7 @@ npm install express mongoose body-parser --save.
 ```
 <hr>
 
-Para criar o banco de dados MongoDB para o exemplo desta API, sigua os seguintes passos:
+<p id="mongo">Para criar o banco de dados MongoDB para o exemplo desta API, sigua os seguintes passos:</p>
 
 1. Certifique-se de que o MongoDB esteja instalado e em execução em seu computador.
 2. Abra um terminal e execute o comando `mongo`. Isso irá iniciar o shell do MongoDB.
@@ -57,7 +78,4 @@ Para iniciar a API, você deve adicionar um script no arquivo package.json que e
 ```
 Isso criará um novo script chamado "start" que executará o arquivo app.js com o Node.js. Para iniciar a sua API, basta executar o comando npm start no terminal, que irá executar o arquivo app.js e iniciar o servidor.
 
-Ao fazer o clone deste projeto, você já terá os arquivos necessários para testa-la, o que precisara fazer é entrar neste repositório, abrir um terminal dentro dele e seguir os passo de inicializar o projeto Node.js, instalar as dependências e configurar o banco, com está etapas finalizada pode iniciar a API com o comando `npm start`.
-
 Fico a disposição para tirar dúvidas. 
-
